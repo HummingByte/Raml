@@ -2,7 +2,7 @@
 
 Cycles in Json and XML can by represented using workarounds which have to be resolved before using the deserialized object.
 
-```json
+```javascript
 {
     "obj" : {
         "myself" : {
@@ -22,7 +22,7 @@ abc123 = { "obj": abc123 }
 
 Not only one but arbitrary many definitions are possible and have to be seperated using a semicolon
 
-```json
+```javascript
 lhs = {"other" : rhs};
 rhs = {"other" : lhs}
 ```
@@ -30,7 +30,7 @@ rhs = {"other" : lhs}
 The last seperated value is the result of a deserialization.
 To change the result you also can use a identifier of a object.
 
-```json
+```javascript
 lhs = {"other" : rhs};
 rhs = {"other" : lhs};
 lhs
@@ -38,7 +38,7 @@ lhs
 
 The value you can assign to a identifier covers the entire JSON syntax inclusind identifier as references.
 
-```json
+```javascript
 self = {
     "some" : {
         "deep" : {
