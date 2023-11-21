@@ -44,7 +44,7 @@ self = {
         "deep" : {
             "nested" : {
                 "object" : self, 
-                "with" : ["a", "list"]
+                "with" : ["a", "list", "including", self]
             }
         }
     }
