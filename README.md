@@ -16,7 +16,7 @@ In this Project we expanded the JSON logic to have a compact readable format whi
 Like in Programming Languages we use Variables to bind the objects.
 The difference is, that the variables will bind in any order of the objects in a raml format.
 
-```
+```javascript
 abc123 = { "obj": abc123 }  
 ```
 
@@ -28,7 +28,7 @@ rhs = {"other" : lhs}
 ```
 
 The last seperated value is the result of a deserialization.
-To change the result you also can use a identifier of a object.
+To change the result you also can use an identifier of a object.
 
 ```javascript
 lhs = {"other" : rhs};
@@ -36,7 +36,7 @@ rhs = {"other" : lhs};
 lhs
 ```
 
-The value you can assign to a identifier covers the entire JSON syntax inclusind identifier as references.
+The value you can assign to an identifier covers the entire JSON syntax including identifier as references.
 
 ```javascript
 self = {
