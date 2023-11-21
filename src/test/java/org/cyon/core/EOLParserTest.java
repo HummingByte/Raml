@@ -52,9 +52,4 @@ public class EOLParserTest {
     public void arrayEOLAfterComma(){
         assertParseException("[\"key\",");
     }
-/*
-    @Test(timeout = 100)
-    public void empty(){
-        assertParseException("");
-    }*/
 }

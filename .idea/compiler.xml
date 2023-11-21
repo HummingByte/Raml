@@ -3,14 +3,14 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Annotation profile for reml-core" enabled="true">
+      <profile name="Annotation profile for raml-core" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar" />
         </processorPath>
-        <module name="reml-core" />
+        <module name="raml-core" />
         <module name="ScriptEngine" />
       </profile>
     </annotationProcessing>
