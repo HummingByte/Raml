@@ -12,9 +12,9 @@ Cycles in Json and XML can by represented using workarounds which have to be res
 }
 ```
 
-In this Project we expanded the JSON logic to have a compact readable format which can resolve references.
+In this Project we expand the JSON format to have a compact readable format which can resolve references.
 Like in Programming Languages we use Variables to bind the objects.
-The difference is, that the variables will bind in any order of the objects in a raml format.
+The difference to programming languages is, that the variables will bind in any order of the objects in a raml format.
 
 ```javascript
 abc123 = { "obj": abc123 }  
